@@ -1,0 +1,20 @@
+{
+  "name": "ai-video-automation",
+  "version": "1.0.0",
+  "description": "Free AI Video Automation System",
+  "main": "server.js",
+  "scripts": {
+    "start": "n8n start",
+    "dev": "n8n dev"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
